@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://admixer.com/wp-content/uploads/fb-5-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+video {
+  outline: none;
+  margin-top: 35px;
+  border-radius: 15px;
+  width: 650px;
+}
+
+button {
+  width: 60px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #8A2BE2;
+  margin-right: 35px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #9932CC;
+  transform: scale(1.1);
+  color: #e6e6fa;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
